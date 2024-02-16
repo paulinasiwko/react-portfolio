@@ -1,0 +1,15 @@
+:root {
+    --white: white;
+    --main: rgba(233,213,161,255);
+    --lighter-main: rgba(239,225,189,255);
+    --decoration: #ae944f;
+    --dark: #181d30;
+  }
+
+  body {
+    background-color: var(--main);
+  }
+
+  .introduction {
+    color: var(--dark);
+  }
