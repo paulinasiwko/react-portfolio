@@ -9,6 +9,7 @@
     --white: white;
     --letters: #9d8472;
     --main: #ebdbb1;
+    --light: rgb(255, 252, 237);
   }
 
 .hidden {
@@ -32,7 +33,6 @@
 }
 
 .lighter {
-    color: rgb(255, 252, 237);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--letters);
+    color: var(--light);
+    font-size: 36px;
 }

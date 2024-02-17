@@ -2,7 +2,9 @@
     --white: white;
     --letters: #9d8472;
     --main: #ebdbb1;
+    --light: rgb(255, 252, 237);
   }
+
 
   /* Navbar */
 
@@ -12,7 +14,7 @@
 
   .img-me-nav {
     width: 60px;
-    border: 1px solid var(--letters);
+    border: 1px solid var(--light);
     border-radius: 50%;
     margin-right: 30px;
   }
@@ -32,20 +34,21 @@
   }
 
   .nav-link:hover {
+    font-weight: 600;
     text-decoration: underline;
-    text-underline-offset: 15px;
-    text-decoration-color: var(--letters);
-    text-decoration-thickness: 3px;
+    text-decoration-color: var(--light);
+    text-underline-offset: 20px;
+    text-decoration-thickness: 2px;
   }
 
   /* Modal */
 
-  .modal-content {
-    background-color: var(--letters);
+  /* .modal-content {
+    background-color: var(--light);
     border-radius: 50%;
   }
 
   .modal img {
     width: 470px;
     border-radius: 50%;
-  }
+  } */

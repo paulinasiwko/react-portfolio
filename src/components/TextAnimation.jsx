@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/TextAnimation.css';
 
-export default function TextAnimation({ text, css }) {
+export default function TextAnimation({ text, css, timeout1, timeout2, timeout3 }) {
     const [visible, setVisible] = useState(true);
     const [letterCount, setLetterCount] = useState(1);
     const [waiting, setWaiting] = useState(false);
@@ -14,22 +14,22 @@ export default function TextAnimation({ text, css }) {
   
           setTimeout(() => {
             setWaiting(false);
-          }, 500); arance
+          }, timeout1); arance
         } else if (letterCount === text.length + 1 && !waiting) {
           setWaiting(true);
   
           setTimeout(() => {
             setLetterCount((prevCount) => prevCount - 1);
             setWaiting(false);
-          }, 500);
+          }, timeout1);
         } else if (!waiting) {
           setLetterCount((prevCount) => prevCount + 1);
         }
-      }, 60);
+      }, timeout2);
   
       const interval2 = setInterval(() => {
         setVisible((prevVisible) => !prevVisible);
-      }, 200); 
+      }, timeout3); 
   
       return () => {
         clearInterval(interval1);
