@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/TextAnimation.css';
 
-export default function TextAnimation({ text }) {
+export default function TextAnimation({ text, css }) {
     const [visible, setVisible] = useState(true);
     const [letterCount, setLetterCount] = useState(1);
     const [waiting, setWaiting] = useState(false);
@@ -14,22 +14,22 @@ export default function TextAnimation({ text }) {
   
           setTimeout(() => {
             setWaiting(false);
-          }, 500); // Decreased timeout value for faster appearance
+          }, 500); arance
         } else if (letterCount === text.length + 1 && !waiting) {
           setWaiting(true);
   
           setTimeout(() => {
             setLetterCount((prevCount) => prevCount - 1);
             setWaiting(false);
-          }, 500); // Decreased timeout value for faster disappearance
+          }, 500);
         } else if (!waiting) {
           setLetterCount((prevCount) => prevCount + 1);
         }
-      }, 60); // Decreased interval value for faster appearance
+      }, 60);
   
       const interval2 = setInterval(() => {
         setVisible((prevVisible) => !prevVisible);
-      }, 200); // Decreased interval value for faster blinking
+      }, 200); 
   
       return () => {
         clearInterval(interval1);
@@ -38,7 +38,7 @@ export default function TextAnimation({ text }) {
     }, [letterCount, waiting, text]);
   
     return (
-      <div className='font-appear'>
+      <div className={css}>
         {text.substring(0, letterCount)}
         <span className={`console-underscore ${visible ? '' : 'hidden'}`}></span>
       </div>

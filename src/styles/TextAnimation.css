@@ -5,6 +5,12 @@
     font-style: normal;
 }
 
+:root {
+    --white: white;
+    --letters: #9d8472;
+    --main: #ebdbb1;
+  }
+
 .hidden {
     opacity:0;
   }
@@ -23,5 +29,10 @@
 .font-appear {
     font-family: 'SundayArtelaRegular', sans-serif;
     font-size: 29px;
-    margin-bottom: 20px;
+}
+
+.lighter {
+    color: rgb(255, 252, 237);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--letters);
 }
