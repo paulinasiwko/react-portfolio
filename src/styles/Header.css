@@ -1,9 +1,7 @@
 :root {
     --white: white;
-    --main: rgba(233,213,161,255);
-    --lighter-main: rgba(239,225,189,255);
-    --dark: rgba(31,31,31,255);
-    --decoration: #ae944f;
+    --letters: #9d8472;
+    --main: #ebdbb1;
   }
 
   /* Navbar */
@@ -14,7 +12,7 @@
 
   .img-me-nav {
     width: 60px;
-    border: 1px solid var(--decoration);
+    border: 1px solid var(--letters);
     border-radius: 50%;
     margin-right: 30px;
   }
@@ -36,14 +34,14 @@
   .nav-link:hover {
     text-decoration: underline;
     text-underline-offset: 15px;
-    text-decoration-color: var(--decoration);
+    text-decoration-color: var(--letters);
     text-decoration-thickness: 3px;
   }
 
   /* Modal */
 
   .modal-content {
-    background-color: var(--dark-yellow);
+    background-color: var(--letters);
     border-radius: 50%;
   }
 

@@ -1,15 +1,31 @@
-:root {
-    --white: white;
-    --main: rgba(233,213,161,255);
-    --lighter-main: rgba(239,225,189,255);
-    --decoration: #ae944f;
-    --dark: #181d30;
-  }
+@font-face {
+    font-family: 'SundayArtelaRegular';
+    src: local('SundayArtelaRegular'), url('../fonts/SundayArtelaRegular-owrZ0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-  body {
+* {
     background-color: var(--main);
   }
 
+:root {
+    --white: white;
+    --letters: #9d8472;
+    --main: #ebdbb1;
+  }
+
   .introduction {
-    color: var(--dark);
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 10rem;
+    }
+
+  .font {
+    font-family: 'SundayArtelaRegular', sans-serif;
+  }
+
+  .name {
+    font-size: 80px;
+    color: var(--letters);
   }

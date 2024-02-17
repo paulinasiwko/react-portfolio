@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SundayArtelaRegular';
+    src: local('SundayArtelaRegular'), url('../fonts/SundayArtelaRegular-owrZ0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden {
+    opacity:0;
+  }
+
+.console-container {
+    display:block;
+    position:absolute;
+  }
+
+.console-underscore {
+    display:inline-block;
+    position:relative;
+    left:10px;
+  }
+
+.font-appear {
+    font-family: 'SundayArtelaRegular', sans-serif;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
