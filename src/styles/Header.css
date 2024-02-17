@@ -1,12 +1,4 @@
-:root {
-    --white: white;
-    --letters: #9d8472;
-    --main: #ebdbb1;
-    --light: rgb(255, 252, 237);
-  }
-
-
-  /* Navbar */
+/* Navbar */
 
   .navbar {
     background-color: var(--main);

@@ -9,14 +9,6 @@
     background-color: var(--main);
   }
 
-  :root {
-    --white: white;
-    --letters: #9d8472;
-    --main: #ebdbb1;
-    --light: rgb(255, 252, 237);
-  }
-
-
   .introduction {
     margin-top: 4rem;
     margin-left: 15rem;
