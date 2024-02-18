@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import '../styles/Home.css';
 import TextAnimation from "./TextAnimation";
+import Footer from "./Footer";
 
 export default function Home() {
     const [secondAnimation, setSecondAnimation] = useState(false);
@@ -23,6 +24,7 @@ export default function Home() {
                 <TextAnimation text='I transform code into awesome user experiences that grab attention and' css='font-appear' timeout1={500} timeout2={60} timeout3={200}/>
                 {secondAnimation && <TextAnimation text='keep it.' css='font-appear lighter' timeout1={2000} timeout2={240} timeout3={800}/>}
             </div>
+            <Footer />
         </>
     );
 }
