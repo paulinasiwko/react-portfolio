@@ -2,19 +2,20 @@ import React from "react";
 import Header from "./Header";
 import Project from "./Project";
 import IMAGES from "../assets/img/Images";
+import '../styles/ProjectsGallery.css';
 
 export default function ProjectsGallery() {
     return (
         <>
         <Header />
-        <div className="container">
+        <div className="container projects-gallery">
             <div className="row">
-                <Project img={IMAGES.codeQuizImg} cardTitle='Friends Code Quiz'/>
-                <Project img={IMAGES.workdaySchedulerImg} cardTitle='Work Day Scheduler'/>
-                <Project img={IMAGES.weatherDashboardImg} cardTitle='Weather Dashboard'/>
-                <Project img={IMAGES.passwordGeneratorImg} cardTitle='Password Generator'/>
-                <Project img={IMAGES.curiocityImg} cardTitle='Curiocity'/>
-                <Project img={IMAGES.teamProfileGeneratorImg} cardTitle='Team Profile Generator'/>
+                <Project img={IMAGES.codeQuizImg} technologies='JavaScript, HTML, CSS' cardTitle='Friends Code Quiz'/>
+                <Project img={IMAGES.workdaySchedulerImg} technologies='jQuery, Day.js, Javascript, HTML, CSS' cardTitle='Work Day Scheduler'/>
+                <Project img={IMAGES.weatherDashboardImg} technologies='jQuery, Bootstrap' cardTitle='Weather Dashboard'/>
+                <Project img={IMAGES.passwordGeneratorImg} technologies='JavaScript' cardTitle='Password Generator'/>
+                <Project img={IMAGES.curiocityImg} technologies='JavaScript, Server-Side APIs' cardTitle='Curiocity'/>
+                <Project img={IMAGES.teamProfileGeneratorImg} technologies='IDK' cardTitle='Team Profile Generator'/>
             </div>
         </div>
         </>
