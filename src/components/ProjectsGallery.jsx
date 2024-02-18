@@ -3,6 +3,7 @@ import Header from "./Header";
 import Project from "./Project";
 import IMAGES from "../assets/img/Images";
 import '../styles/ProjectsGallery.css';
+import Footer from "./Footer";
 
 export default function ProjectsGallery() {
     return (
@@ -18,6 +19,7 @@ export default function ProjectsGallery() {
                 <Project img={IMAGES.teamProfileGeneratorImg} technologies='IDK' cardTitle='Team Profile Generator'/>
             </div>
         </div>
+        <Footer />
         </>
     );
 }

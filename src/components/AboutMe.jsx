@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/AboutMe.css';
 import IMAGES from "../assets/img/Images";
+import Footer from "./Footer";
 
 export default function AboutMe() {
     return (
@@ -59,6 +60,7 @@ export default function AboutMe() {
             </div>
             <img src={IMAGES.meImg} alt="Photo of me" className="aboutMeImg" />
         </section>
+        <Footer />
         </>
     );
 }

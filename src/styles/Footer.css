@@ -1,0 +1,23 @@
+footer,
+.contactDetails,
+a,
+.icon {
+    background-color: var(--dark);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content:center;
+}
+
+.icon {
+    height: 30px;
+    padding: 20px 5px;
+    color: var(--light);
+}

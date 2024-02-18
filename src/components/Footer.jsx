@@ -1,23 +1,25 @@
 import React from "react";
 import '../styles/Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faLinkedin, faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
     return (
         <>
-                <footer class="container-fluid" id="contact-me">
-          <h2>Contact Me</h2>
-          <div class="contact-details">
+        <footer className="container-fluid">
+          <div className="contactDetails">
             <a href="https://api.whatsapp.com/send?phone=0048573255869">
-              <i class="fa fa-whatsapp"></i>        
+              <FontAwesomeIcon icon={faWhatsappSquare} className="icon"/>     
             </a>
             <a href="mailto:pau.siwko@gmail.com">
-              <i class="fa fa-envelope-square"></i>
+              <FontAwesomeIcon icon={faEnvelopeSquare} className="icon"/>
             </a>
             <a href="https://github.com/paulinasiwko">
-              <i class="fa fa-github-square"></i>
+              <FontAwesomeIcon icon={faGithubSquare} className="icon"/>
             </a>
             <a href="https://www.linkedin.com/in/paulina-siwko-35a48312b/">
-              <i class="fa fa-linkedin-square"></i>
+              <FontAwesomeIcon icon={faLinkedin} className="icon"/>
             </a>
           </div>    
         </footer>
