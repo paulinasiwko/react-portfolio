@@ -1,13 +1,13 @@
 import React from 'react';
-import image from '../assets/img/me.jpg';
 import '../styles/Header.css';
+import IMAGES from '../assets/img/Images';
 
 export default function Header() {
     return (
         <>
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#"><img src={image} alt="Photo of me" className="img-me-nav" data-bs-toggle="modal" data-bs-target="#modal" /></a>
+              <a className="navbar-brand" href="#"><img src={IMAGES.meImg} alt="Photo of me" className="img-me-nav" data-bs-toggle="modal" data-bs-target="#modal" /></a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>

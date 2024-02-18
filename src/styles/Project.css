@@ -1,0 +1,25 @@
+.singleCard {
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+.prj-img {
+    padding: 15px 15px 0 15px;
+    background-color: var(--white);
+}
+
+.card-body,
+.card-text {
+    background-color: var(--white);
+}
+
+.card-body {
+    padding-top: 0 !important;
+}
+
+.card-title {
+    background-color: var(--letters);
+    color: var(--white) !important;
+    margin: auto;
+    width: 70%;
+}
