@@ -1,8 +1,8 @@
 import React from "react";
 import '../styles/AboutMe.css';
 import IMAGES from "../assets/img/Images";
-import Footer from "./Footer";
-import HeaderNoImg from "./HeaderNoImg";
+import Footer from "../components/Footer";
+import HeaderNoImg from "../components/HeaderNoImg";
 
 export default function AboutMe() {
     return (

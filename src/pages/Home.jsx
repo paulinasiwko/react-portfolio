@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 import '../styles/Home.css';
-import TextAnimation from "./TextAnimation";
-import Footer from "./Footer";
+import TextAnimation from "../components/TextAnimation";
+import Footer from "../components/Footer";
 
 export default function Home() {
     const [secondAnimation, setSecondAnimation] = useState(false);

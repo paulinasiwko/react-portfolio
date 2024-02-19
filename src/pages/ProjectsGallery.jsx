@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import Project from "./Project";
+import Header from "../components/Header";
+import Project from "../components/Project";
 import IMAGES from "../assets/img/Images";
 import '../styles/ProjectsGallery.css';
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 export default function ProjectsGallery() {
     return (

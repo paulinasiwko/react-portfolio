@@ -1,9 +1,9 @@
 import React from "react";
 import '../styles/ProjectPage.css';
 import IMAGES from "../assets/img/Images";
-import Footer from "./Footer";
-import HeaderNoImg from "./HeaderNoImg";
-import Project from "./Project";
+import Footer from "../components/Footer";
+import HeaderNoImg from "../components/HeaderNoImg";
+import Project from "../components/Project";
 
 export default function ProjectPage() {
     return (

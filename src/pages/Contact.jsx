@@ -1,7 +1,7 @@
 import React from "react";
 import IMAGES from "../assets/img/Images";
-import HeaderNoImg from "./HeaderNoImg";
-import Footer from "./Footer";
+import HeaderNoImg from "../components/HeaderNoImg";
+import Footer from "../components/Footer";
 import '../styles/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
