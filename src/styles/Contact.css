@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'SundayArtelaRegular';
+    src: local('SundayArtelaRegular'), url('../fonts/SundayArtelaRegular-owrZ0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contactHeading {
+    font-family: 'SundayArtelaRegular', sans-serif;
+    color: var(--letters);
+    font-size: 60px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialName {
+    text-decoration: underline none !important;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconContact {
+    height: 50px;
+}
+
+.whatsapp {
+    color: green;
+}
+
+.gmail {
+    color: rgb(255, 255, 255);
+}
+
+.github {
+    color: black;
+}
+
+.contactMeImg {
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid var(--letters);
+}
