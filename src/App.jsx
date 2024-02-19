@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './components/Home';
 import ProjectsGallery from './components/ProjectsGallery';
@@ -9,10 +10,8 @@ import Contact from './components/Contact';
 function App() {
 
   return (
-    <>
-    <Contact />
-    </>
-  )
+    <Home />
+  );
 }
 
 export default App;

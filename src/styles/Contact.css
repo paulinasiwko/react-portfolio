@@ -50,7 +50,7 @@ a:hover {
 }
 
 .whatsapp {
-    color: green;
+    color: #25D366;
 }
 
 .gmail {
@@ -59,6 +59,10 @@ a:hover {
 
 .github {
     color: black;
+}
+
+.linkedin {
+    color: #0762C8;
 }
 
 .contactMeImg {

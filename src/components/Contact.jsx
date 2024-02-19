@@ -31,7 +31,7 @@ export default function Contact() {
                         <FontAwesomeIcon icon={faGithubSquare} className="iconContact"/>
                         <p className="socialName">Github</p>
                     </a>
-                    <a href="https://www.linkedin.com/in/paulina-siwko-35a48312b/" className="link">
+                    <a href="https://www.linkedin.com/in/paulina-siwko-35a48312b/" className="link linkedin">
                         <FontAwesomeIcon icon={faLinkedin} className="iconContact"/>
                         <p className="socialName">LinkedIn</p>
                     </a>
