@@ -25,18 +25,15 @@ export default function Contact() {
 
                     <a href="mailto:pau.siwko@gmail.com" className="link gmail">
                         <FontAwesomeIcon icon={faEnvelopeSquare} className="iconContact"/>
-                        <p>Gmail</p>
+                        <p className="socialName">Gmail</p>
                     </a>
-                </div>
-
-                <div className="socialMedia">
                     <a href="https://github.com/paulinasiwko" className="link github">
                         <FontAwesomeIcon icon={faGithubSquare} className="iconContact"/>
-                        <p>Github</p>
+                        <p className="socialName">Github</p>
                     </a>
                     <a href="https://www.linkedin.com/in/paulina-siwko-35a48312b/" className="link">
                         <FontAwesomeIcon icon={faLinkedin} className="iconContact"/>
-                        <p>Linkedin</p>
+                        <p className="socialName">LinkedIn</p>
                     </a>
                 </div>
             </div>

@@ -19,18 +19,30 @@
 }
 
 .socialMedia {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+a:link {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    transform: scale(1.01);
 }
 
 .socialName {
-    text-decoration: underline none !important;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .link {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 .iconContact {
@@ -53,4 +65,19 @@
     height: 350px;
     border-radius: 50%;
     border: 1px solid var(--letters);
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 993px) {
+    .contactContainer {
+        flex-wrap: wrap;
+    }
+    
+    .contactMeImg {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
