@@ -8,8 +8,6 @@ const IMAGES = {
     teamProfileGeneratorImg: new URL('./team-profile-generator.PNG', import.meta.url).href,
     weatherDashboardImg: new URL('./weather-dashboard.PNG', import.meta.url).href,
     workdaySchedulerImg: new URL('./workday-scheduler.PNG', import.meta.url).href,
-    typescriptImg: new URL('./typescript.PNG', import.meta.url).href,
-    jQueryImg: new URL('./jquery.PNG', import.meta.url).href,
 }
 
 export default IMAGES;
