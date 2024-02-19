@@ -28,11 +28,11 @@ The [URL](https://paulinasiwko.github.io/Weather-Dashboard/) of deployed applica
 - Font Awesome Icons
 
 ## Credits
-[CSS Text Animation Examples](https://www.sliderrevolution.com/resources/css-text-animation/)
-[Fonts](https://www.fontspace.com/)
-[Bootstrap cards idea](https://codepen.io/maryj25)
-[Portfolio inspiration](https://dorota1997.github.io/react-frontend-dev-portfolio/)
-[Portfolio inspiration](https://www.adhamdannaway.com/about)
+- [CSS Text Animation Examples](https://www.sliderrevolution.com/resources/css-text-animation/)
+- [Fonts](https://www.fontspace.com/)
+- [Bootstrap cards idea](https://codepen.io/maryj25)
+- [Portfolio inspiration](https://dorota1997.github.io/react-frontend-dev-portfolio/)
+- [Portfolio inspiration](https://www.adhamdannaway.com/about)
 
 ## Licence 
 N/A
