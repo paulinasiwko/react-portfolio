@@ -1,8 +1,11 @@
-footer,
+footer {
+    background-color: var(--dark);
+}
+
 .contactDetails,
 a,
 .icon {
-    background-color: var(--dark);
+    background-color: transparent;
 }
 
 footer {
@@ -20,4 +23,10 @@ footer {
     height: 30px;
     padding: 20px 5px;
     color: var(--light);
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    background-color: transparent;
+    color: var(--white);
 }
