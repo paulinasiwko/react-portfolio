@@ -18,14 +18,12 @@
 
   nav a {
     text-transform: uppercase;
+    color: var(--dark);
+    font-weight: 400;
+    margin-right: 30px !important;
   }
 
-  .nav-link {
-    margin-right: 30px;
-    font-weight: 600;
-  }
-
-  .nav-link:hover {
+  nav a:hover {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color: var(--light);
