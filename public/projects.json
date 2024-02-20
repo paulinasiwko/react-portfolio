@@ -1,7 +1,7 @@
 [
     {
         "id": "friends_quiz",
-        "image": "../assets/img/code-quiz.JPG",
+        "image": "./assets/img/code-quiz.JPG",
         "technologies": "JavaScript, HTML, CSS",
         "cardTitle": "Friends Code Quiz",
         "title": "friends code quiz", 
@@ -11,7 +11,7 @@
     },
     {
         "id": "workday_scheduler",
-        "image": "../assets/img/workday-scheduler.PNG",
+        "image": "./assets/img/workday-scheduler.PNG",
         "technologies": "jQuery, Day.js, Javascript, HTML, CSS",
         "cardTitle": "Workday scheduler",
         "title": "workday scheduler", 
@@ -20,7 +20,7 @@
         "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     },{
         "id": "weather",
-        "image":  "../assets/img/weather-dashboard.PNG",
+        "image":  "./assets/img/weather-dashboard.PNG",
         "technologies":  "Javascript, jQuery, Bootstrap",
         "cardTitle": "Weather Dashboard",
         "title": "weather dashboard", 
@@ -29,7 +29,7 @@
         "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
     },{
         "id": "password",
-        "image": "../assets/img/password-generator.PNG",
+        "image": "./assets/img/password-generator.PNG",
         "technologies":  "JavaScript, HTML, CSS",
         "cardTitle": "Password Generator",
         "title": "password generator", 
@@ -38,7 +38,7 @@
         "deployed": "https://paulinasiwko.github.io/Password-Generator/"
     },{
         "id": "curiocity",
-        "image":  "../assets/img/curiocity.png",
+        "image":  "./assets/img/curiocity.png",
         "technologies": "JavaScript, Bootstrap, Server-Side APIs",
         "cardTitle": "Curiocity",
         "title": "curiocity", 
@@ -47,7 +47,7 @@
         "deployed": "https://paulinasiwko.github.io/CurioCity/"
     },{
         "id":  "profile",
-        "image":  "../assets/img/team-profile-generator.PNG",
+        "image":  "./assets/img/team-profile-generator.PNG",
         "technologies": "JavaScript, HTML, CSS",
         "cardTitle": "Team Profile Generator",
         "title": "team profile generator", 
