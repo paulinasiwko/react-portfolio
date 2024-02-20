@@ -5,9 +5,9 @@
         "technologies": "JavaScript, HTML, CSS",
         "cardTitle": "Friends Code Quiz",
         "title": "friends code quiz", 
-        "description": "a", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "A timed Friends Quiz with multiple-choice questions. A dataset is composed of an array with questions and answers. For each question only one answer is correct. I am using an even listener on a button to start the quiz and the timer. If the user choose a correct answer, the game will show another question. If the user choose an incorrect answer, 10 seconds are substracted from the clock. The quiz is over when all questions are answered or the timer reaches 0. When the quiz is over, the user can enter their initials. After clicking on 'Submit' button, the user will see all the highscores. I am using local storage to store all user's initials and scores. After clicking on 'Clear Highscores' button, local storage is cleared.", 
+        "github": "https://github.com/paulinasiwko/Code-Quiz", 
+        "deployed": "https://paulinasiwko.github.io/Code-Quiz/"
     },
     {
         "id": "workday_scheduler",
@@ -15,43 +15,43 @@
         "technologies": "jQuery, Day.js, Javascript, HTML, CSS",
         "cardTitle": "Workday scheduler",
         "title": "workday scheduler", 
-        "description": "b", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "This project aims to create a Daily Planner App, showcasing skills in DOM manipulation, advanced JavaScript, Day.js library, and integration of third-party APIs.", 
+        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
+        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     },{
         "id": "weather",
         "image":  "../assets/img/weather-dashboard.PNG",
         "technologies":  "Javascript, jQuery, Bootstrap",
         "cardTitle": "Weather Dashboard",
         "title": "weather dashboard", 
-        "description": "opis weather", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "This project aims to create a Weather Forecast App. Users can search for a city and view both current and future weather conditions for that location. The city is then added to the search history, providing a convenient way to access previously searched locations.", 
+        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
+        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
     },{
         "id": "password",
         "image": "../assets/img/password-generator.PNG",
         "technologies":  "JavaScript, HTML, CSS",
         "cardTitle": "Password Generator",
         "title": "password generator", 
-        "description": "opis password", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "This project collects user's input using prompts. It analyzes user's input to create a random password. Once all prompts are answered, the password is generated and written to the page. The password is generated after each button click.", 
+        "github": "https://github.com/paulinasiwko/Password-Generator", 
+        "deployed": "https://paulinasiwko.github.io/Password-Generator/"
     },{
         "id": "curiocity",
         "image":  "../assets/img/curiocity.png",
-        "technologies": "JavaScript, Server-Side APIs",
+        "technologies": "JavaScript, Bootstrap, Server-Side APIs",
         "cardTitle": "Curiocity",
         "title": "curiocity", 
-        "description": "opis curio", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "CurioCity is an innovative, user-friendly platform that enhances the urban exploration experience. Designed for both avid travelers and curious locals, it offers a comprehensive guide to cities worldwide. By inputting a city name, users receive an array of information: current weather, captivating images, city descriptions, trending movies, local cuisine insights, and a convenient currency converter. This holistic approach, powered by seven different server-side APIs, provides an immersive and informative exploration tool for city enthusiasts.", 
+        "github": "https://github.com/paulinasiwko/CurioCity", 
+        "deployed": "https://paulinasiwko.github.io/CurioCity/"
     },{
         "id":  "profile",
         "image":  "../assets/img/team-profile-generator.PNG",
         "technologies": "JavaScript, HTML, CSS",
         "cardTitle": "Team Profile Generator",
         "title": "team profile generator", 
-        "description": "opis ale z wielu paragrafow", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "description": "This project aims to take in information about employees on a software engineering team, then generate an HTML webpage that displays summaries for each person.", 
+        "github": "https://github.com/paulinasiwko/Team-Profile-Generator", 
+        "deployed": "https://paulinasiwko.github.io/Team-Profile-Generator/"
     }]
