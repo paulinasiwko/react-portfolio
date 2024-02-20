@@ -10,7 +10,6 @@ export default function ProjectsGallery() {
     const navigate = useNavigate();
 
     const handleProjectClick = (project) => {
-        // Use the navigate function to navigate to the project page with the dynamic project id
         navigate(`/projects/${project.id}`, { state: (project)});
       };
 
@@ -33,13 +32,15 @@ export default function ProjectsGallery() {
         <>
         <Header showImg={true} />
         <div className="container projects-gallery">
-            <div className="row" style={{ display: 'flex' }}>
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 {projects.map(project => {
                     const image = new URL(project.image, import.meta.url).href;
                     return (
-                        <Link  to={`/projects/${project.id}`} state={{project}} key={project.id} className="col-md-6 mb-6" style={{ textDecoration: 'none', color: 'inherit' }}>
+                      <div className="col mb-4" key={project.id}>
+                        <Link to={`/projects/${project.id}`} state={{project}}>
                             <Project img={image} technologies={project.technologies} cardTitle={project.cardTitle}/>
                         </Link>
+                      </div>
                     )
                 })}
             </div>

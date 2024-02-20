@@ -1,6 +1,10 @@
 .singleCard {
     text-align: center;
     border-radius: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+    flex: 1;
 }
 
 .prj-img {
