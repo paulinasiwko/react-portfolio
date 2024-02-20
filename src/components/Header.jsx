@@ -31,9 +31,6 @@ export default function Header({showImg}) {
                   <li className="nav-item">
                     <span className="nav-link"><Link  to={`/contact`}>Contact me</Link></span>
                   </li>
-                  <li className="nav-item">
-                    {/* <a className="nav-link" href="./assets/Paulina-Siwko-Resume.pdf" download="Paulina-Siwko-Resume">Resume</a> */}
-                  </li>
                 </ul>
               </div>
             </div>
