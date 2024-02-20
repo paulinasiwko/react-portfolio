@@ -10,12 +10,10 @@ export default function ProjectPage() {
     const { state } = useLocation();
     const project = state.project;
     if (!project) {
-        // Handle the case where there are no project details
         return <div>No project details available</div>;
       }
 
-    // TODO: czytac description, github, deployed ze zmiennej project i pokazywac
-    // 
+    const image = new URL(project.image, import.meta.url).href
     return (
         <>
         <Header showImg={false} />
@@ -36,7 +34,7 @@ export default function ProjectPage() {
                     local storage is cleared.
                 </p>
             </div>
-            <img src={project.image} alt="Screenshot of the deployed application" className="screenshot"/>
+            <img src={image} alt="Screenshot of the deployed application" className="screenshot"/>
         </section>
         <Footer />
         </>
