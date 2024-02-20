@@ -13,9 +13,9 @@ N/A
 ## Usage
 After opening the code in the browser the resulting analysis looks as following:
 
-<!-- ![A screenshot of the deployed application](./assets/img/screenshot.PNG)
+![A screenshot of the deployed application](./src/assets/img/deployed.JPG)
 
-The [URL](https://paulinasiwko.github.io/Weather-Dashboard/) of deployed application. -->
+The [URL](https://paulinasiwko.github.io/react-portfolio/) of deployed application.
 
 ## Technologies Used
 
