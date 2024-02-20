@@ -27,6 +27,24 @@
     font-size: 60px;   
 }
 
+.prjLinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.singleLink {
+    text-transform: uppercase;
+    color: var(--dark);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.singleLink:hover {
+    font-weight: 600;
+}
+
+
 @media screen and (max-width: 993px) {
     .container {
         flex-wrap: wrap;
@@ -35,12 +53,16 @@
     .prjDescriptionSide {
         margin-right: auto;
     }
-    
-    .screenshot {
+
+    .demo {
         margin-top: 40px;
-        margin-bottom: 120px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .prjLinks {
+        margin-bottom: 150px;    
+    }
+
 }

@@ -6,8 +6,8 @@
         "cardTitle": "Friends Code Quiz",
         "title": "friends code quiz", 
         "description": "a", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/Code-Quiz", 
+        "deployed": "https://paulinasiwko.github.io/Code-Quiz/"
     },
     {
         "id": "workday_scheduler",
@@ -16,8 +16,8 @@
         "cardTitle": "Workday scheduler",
         "title": "workday scheduler", 
         "description": "b", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
+        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     },{
         "id": "weather",
         "image":  "../assets/img/weather-dashboard.PNG",
@@ -25,8 +25,8 @@
         "cardTitle": "Weather Dashboard",
         "title": "weather dashboard", 
         "description": "opis weather", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
+        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
     },{
         "id": "password",
         "image": "../assets/img/password-generator.PNG",
@@ -34,8 +34,8 @@
         "cardTitle": "Password Generator",
         "title": "password generator", 
         "description": "opis password", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/Password-Generator", 
+        "deployed": "https://paulinasiwko.github.io/Password-Generator/"
     },{
         "id": "curiocity",
         "image":  "../assets/img/curiocity.png",
@@ -43,8 +43,8 @@
         "cardTitle": "Curiocity",
         "title": "curiocity", 
         "description": "opis curio", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/CurioCity", 
+        "deployed": "https://paulinasiwko.github.io/CurioCity/"
     },{
         "id":  "profile",
         "image":  "../assets/img/team-profile-generator.PNG",
@@ -52,6 +52,6 @@
         "cardTitle": "Team Profile Generator",
         "title": "team profile generator", 
         "description": "opis ale z wielu paragrafow", 
-        "github": "google.com", 
-        "deployed": "google.com"
+        "github": "https://github.com/paulinasiwko/Team-Profile-Generator", 
+        "deployed": "https://paulinasiwko.github.io/Team-Profile-Generator/"
     }]

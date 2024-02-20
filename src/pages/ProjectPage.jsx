@@ -34,7 +34,13 @@ export default function ProjectPage() {
                     local storage is cleared.
                 </p>
             </div>
-            <img src={image} alt="Screenshot of the deployed application" className="screenshot"/>
+            <div className="demo">
+                <img src={image} alt="Screenshot of the deployed application" className="screenshot"/>
+                <div className="prjLinks">
+                    <a href={project.github} className="singleLink">Github</a>
+                    <a href={project.deployed} className="singleLink">Visit application</a>
+                </div>
+            </div>
         </section>
         <Footer />
         </>
