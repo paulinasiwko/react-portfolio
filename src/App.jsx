@@ -11,7 +11,7 @@ import Skills from './pages/Skills';
 function App() {
 
   return (
-    <Router>
+    <Router basename='/react-portfolio/'>
       <div>
           <Routes>
             <Route path="/" element={<Home/>} />
