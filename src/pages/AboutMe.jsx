@@ -2,12 +2,12 @@ import React from "react";
 import '../styles/AboutMe.css';
 import IMAGES from "../assets/img/Images";
 import Footer from "../components/Footer";
-import HeaderNoImg from "../components/HeaderNoImg";
+import Header from "../components/Header";
 
 export default function AboutMe() {
     return (
         <>
-        <HeaderNoImg />
+        <Header showImg={false} />
         <section className="container aboutMeLayout">
             <div className="meDescription">
                 <h1 className="heading">about me</h1>

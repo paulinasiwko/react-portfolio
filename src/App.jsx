@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProjectsGallery from './pages/ProjectsGallery';
 import AboutMe from './pages/AboutMe';
-import Footer from './components/Footer';
 import ProjectPage from './pages/ProjectPage';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
@@ -11,7 +11,19 @@ import Skills from './pages/Skills';
 function App() {
 
   return (
-    <Home />
+    <Router>
+      <div>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<AboutMe/>} />
+            <Route path="/projects" element={<ProjectsGallery/>} />
+            <Route path="/skills" element={<Skills/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/projects/:id" element={<ProjectPage />}/>
+          </Routes>
+
+      </div>
+    </Router>
   );
 }
 

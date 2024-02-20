@@ -1,6 +1,6 @@
 import React from "react";
 import IMAGES from "../assets/img/Images";
-import HeaderNoImg from "../components/HeaderNoImg";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import '../styles/Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +11,7 @@ import { faGithubSquare, faLinkedin, faWhatsappSquare } from "@fortawesome/free-
 export default function Contact() {
     return (
         <>
-        <HeaderNoImg />
+        <Header showImg={false} />
         <section className="contactContainer">
             <div>
                 <h1 className="contactHeading">contact me</h1>

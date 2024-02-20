@@ -8,7 +8,7 @@ import { faSquareJs, faCss3Alt, faHtml5, faBootstrap, faReact, faGitAlt } from "
 export default function Skills() {
     return (
         <>
-        <Header />
+        <Header showImg={true}/>
         <div className="skillsContainer">
             <h1 className="skillsIntroduction">i know</h1>
             <div className="change">

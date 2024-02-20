@@ -3,8 +3,7 @@ import '../styles/Project.css';
 
 export default function Project({img, technologies, cardTitle}) {
     return (
-        <>
-        <div className="col-sm-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch">
+        <div className="col-sm-12 col-md-12 col-lg-6 mb-4 d-flex align-items-stretch">
             <div className="card singleCard">
                 <img src={img} className="card-img-top prj-img" alt="Screenshot of deployed Code Quiz application" />
                 <div className="card-body">
@@ -13,6 +12,5 @@ export default function Project({img, technologies, cardTitle}) {
                 </div>
             </div>
         </div>
-        </>
     );
 }

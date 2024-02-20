@@ -2,16 +2,27 @@ import React from "react";
 import '../styles/ProjectPage.css';
 import IMAGES from "../assets/img/Images";
 import Footer from "../components/Footer";
-import HeaderNoImg from "../components/HeaderNoImg";
-import Project from "../components/Project";
+import Header from "../components/Header";
+import { useLocation  } from "react-router-dom";
 
 export default function ProjectPage() {
+
+    const { state } = useLocation();
+    const project = state.project;
+    if (!project) {
+        // Handle the case where there are no project details
+        return <div>No project details available</div>;
+      }
+
+    // TODO: czytac description, github, deployed ze zmiennej project i pokazywac
+    // 
     return (
         <>
-        <HeaderNoImg />
+        <Header showImg={false} />
         <section className="container">
             <div className="prjDescriptionSide">
-                <h1 className="prjTitle">friends code quiz</h1>
+                <h1 className="prjTitle">{project.title}</h1>
+                
                 <p>A timed Friends Quiz with multiple-choice questions.</p>
                 <p>A dataset is composed of an array with questions and answers. For each question only one answer is correct.</p>
                 <p>
@@ -25,7 +36,7 @@ export default function ProjectPage() {
                     local storage is cleared.
                 </p>
             </div>
-            <img src={IMAGES.codeQuizImg} alt="Screenshot of the deployed application" className="screenshot"/>
+            <img src={project.image} alt="Screenshot of the deployed application" className="screenshot"/>
         </section>
         <Footer />
         </>

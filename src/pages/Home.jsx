@@ -17,7 +17,7 @@ export default function Home() {
 
     return (
         <>
-            <Header />
+            <Header showImg={true}/>
             <div className="introduction">
                 <p className="font">Hi, my name is</p>
                 <h1 className="font name">Paulina Siwko</h1>
