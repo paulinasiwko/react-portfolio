@@ -34,6 +34,9 @@ export default function AboutMe() {
                 </p>
             </div>
             <img src={IMAGES.meImg} alt="Photo of me" className="aboutMeImg" />
+            {/* <div className="speechBubble">
+                <p className="comicText">Don't click on me, it hurts!</p>
+            </div> */}
         </section>
         <Footer />
         </>

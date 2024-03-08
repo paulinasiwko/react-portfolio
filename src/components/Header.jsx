@@ -28,9 +28,6 @@ export default function Header({showImg}) {
                   <li className="nav-item">
                     <span className="nav-link"><Link  to={`/skills`}>Skills</Link></span>
                   </li>
-                  <li className="nav-item">
-                    <span className="nav-link"><Link  to={`/contact`}>Contact me</Link></span>
-                  </li>
                 </ul>
               </div>
             </div>

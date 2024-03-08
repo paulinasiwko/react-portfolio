@@ -21,6 +21,7 @@
     color: var(--dark);
     font-weight: 400;
     margin-right: 30px !important;
+    text-decoration: underline var(--main);
   }
 
   nav a:hover {
