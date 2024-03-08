@@ -5,14 +5,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProjectsGallery from './pages/ProjectsGallery';
 import AboutMe from './pages/AboutMe';
 import ProjectPage from './pages/ProjectPage';
-import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 
 function App() {
 
   return (
-    // <Router basename='/react-portfolio/'>
-    <Router basename='/'>
+    <Router basename='/react-portfolio/'>
+     {/* <Router basename='/'> */}
 
 
       <div>
