@@ -7,31 +7,35 @@
 
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
 
 .prjDescriptionSide {
-    margin-right: 100px;
+    margin: 0;
+    text-align: center; 
 }
 
 .screenshot {
-    height: 250px;
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
     background-color: var(--white);
-    padding: 10px 10px 50px 10px;
+    padding: 10px;
 }
 
 .prjTitle {
     font-family: 'SundayArtelaRegular', sans-serif;
+    font-size: 45px;
     color: var(--letters);
-    font-size: 60px;   
 }
 
 .prjLinks {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px;
 }
 
 .singleLink {

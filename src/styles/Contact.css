@@ -7,9 +7,16 @@
 
 .contactContainer {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin-top: 50px;
+    align-items: center;
+    margin-top: 10px;
     margin-bottom: 100px;
+}
+
+.allContactInfo {
+    margin: 0;
+    text-align: center;
 }
 
 .contactHeading {
@@ -67,10 +74,12 @@ a:hover {
 }
 
 .contactMeImg {
-    height: 350px;
+    height: 300px; 
+    width: 300px; 
     border-radius: 50%;
     border: 1px solid var(--letters);
-    margin-bottom: 50px;
+    margin-top: 20px; 
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 993px) {

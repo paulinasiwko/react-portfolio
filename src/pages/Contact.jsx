@@ -13,9 +13,9 @@ export default function Contact() {
         <>
         <Header showImg={false} />
         <section className="contactContainer">
-            <div>
+            <div className="allContactInfo">
                 <h1 className="contactHeading">contact me</h1>
-                <h5>Get in touch with me via social media or email.</h5>
+                <h5 className="paragraph">Get in touch with me via social media or email.</h5>
 
                 <div className="socialMedia">
                     <a href="https://api.whatsapp.com/send?phone=0048573255869" className="link whatsapp">

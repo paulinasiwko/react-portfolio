@@ -1,23 +1,40 @@
 @font-face {
-    font-family: 'SundayArtelaRegular';
-    src: local('SundayArtelaRegular'), url('../fonts/SundayArtelaRegular-owrZ0.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'SundayArtelaRegular';
+  src: local('SundayArtelaRegular'), url('../fonts/SundayArtelaRegular-owrZ0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    background-color: var(--main);
-  }
+  box-sizing: border-box;
+  background-color: var(--main);
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.introduction {
+  margin: 4rem 5vw 0 5vw;
+  text-align: center;
+}
+
+.font {
+  font-family: 'SundayArtelaRegular', sans-serif;
+}
+
+.name {
+  font-size: 36px;
+  color: var(--letters);
+}
+
+@media screen and (min-width: 768px) {
   .introduction {
-    margin: 4rem 10rem 0 15rem;
-    }
-
-  .font {
-    font-family: 'SundayArtelaRegular', sans-serif;
+      margin: 4rem 10vw 0 10vw;
   }
 
   .name {
-    font-size: 80px;
-    color: var(--letters);
+      font-size: 80px; 
   }
+}

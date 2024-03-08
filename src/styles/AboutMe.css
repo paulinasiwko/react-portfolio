@@ -7,42 +7,40 @@
 
 .aboutMeLayout {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
 .meDescription {
-    margin-right: 50px;
+    margin: 0;
+    text-align: center;
 }
 
 .heading {
     font-family: 'SundayArtelaRegular', sans-serif;
     color: var(--letters);
-    font-size: 60px;
+    font-size: 60px; 
 }
 
 .aboutMeImg {
-    height: 400px;
+    height: 300px; 
+    width: 300px; 
     border-radius: 50%;
     border: 1px solid var(--letters);
+    margin-top: 20px; 
+    margin-bottom: 30px;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (min-width: 768px) {
     .aboutMeLayout {
-        flex-wrap: wrap;
+        flex-direction: row; 
     }
 
     .meDescription {
-        margin-right: auto;
-    }
-    
-    .aboutMeImg {
-        margin-top: 40px;
-        margin-bottom: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 50px;
+        text-align: left; 
     }
 }
