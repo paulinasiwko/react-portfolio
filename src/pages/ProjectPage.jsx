@@ -3,6 +3,7 @@ import '../styles/ProjectPage.css';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useLocation  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function ProjectPage() {
 
@@ -27,6 +28,7 @@ export default function ProjectPage() {
                 <div className="prjLinks">
                     <a href={project.github} className="singleLink">Github</a>
                     <a href={project.deployed} className="singleLink">Visit application</a>
+                    <Link  to={`/projects`} className="back">Back</Link>
                 </div>
             </div>
         </section>
@@ -34,3 +36,4 @@ export default function ProjectPage() {
         </>
     );
 }
+

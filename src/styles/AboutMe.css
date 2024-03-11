@@ -55,4 +55,8 @@
         margin-right: 50px;
         text-align: left; 
     }
+
+    .first {
+        font-weight: 600;
+    }
 }

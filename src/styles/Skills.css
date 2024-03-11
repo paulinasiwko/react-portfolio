@@ -96,4 +96,8 @@
     .skillImg {
       margin: 10px auto;
     }
+
+    .change {
+      font-weight: 600;
+    }
   }
