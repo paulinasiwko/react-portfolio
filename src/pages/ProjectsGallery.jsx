@@ -29,7 +29,7 @@ export default function ProjectsGallery() {
 
     return (
         <>
-        <Header showImg={true} />
+        <Header showImg={false} />
         <div className="container projects-gallery">
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 {projects.map(project => {

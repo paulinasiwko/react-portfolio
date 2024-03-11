@@ -26,7 +26,8 @@
     text-transform: uppercase;
     font-weight: 600;
     color: var(--light);
-
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .change > div > div {
@@ -41,28 +42,32 @@
 }
   
   @keyframes show {
-    0% { margin-top: -600px; }
-    11.5% { margin-top: -600px; }
-    12.5% { margin-top: -515px; }
-    24% { margin-top: -515px; }
-    25% { margin-top: -430px; }
-    36% { margin-top: -430px; }
-    37% { margin-top: -345px; }
-    49% { margin-top: -345px; }
-    50% { margin-top: -260px; }
-    61.5% { margin-top: -260px; }
-    62.5% { margin-top: -175px; }
-    74% { margin-top: -175px; }
-    75% { margin-top: -90px; }
-    86.5% { margin-top: -90px; }
-    87.5% { margin-top: -5px; }
-    99% { margin-top: -5px; }
-    100% { margin-top: -600px; }
+    0% { margin-top: -680px; }
+    10.1% { margin-top: -680px; }
+    11.1% { margin-top: -594px; }
+    21.2% { margin-top: -594px; }
+    22.2% { margin-top: -508px; }
+    32.3% { margin-top: -508px; }
+    33.3% { margin-top: -422px; }
+    43.4% { margin-top: -422px; }
+    44.4% { margin-top: -336px; }
+    54.5% { margin-top: -336px; }
+    55.5% { margin-top: -250px; }
+    65.6% { margin-top: -250px; }
+    66.6% { margin-top: -164px; }
+    76.7% { margin-top: -164px; }
+    77.7% { margin-top: -78px; }
+    87.8% { margin-top: -78px; }
+    88.8% { margin-top: 0px; }
+    98.9% { margin-top: 0px; }
+    100% { margin-top: -680px; }
   }
 
   .technologiesSection {
-    text-align: center;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
   .skillIcon {
     height: 40px;
@@ -71,4 +76,24 @@
     background-color: var(--light);
     padding: 20px;
     border-radius: 10px;
+  }
+
+  .skillImg {
+    height: 80px;
+    background-color: var(--light);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 20px;
+  }
+
+  @media screen and (max-width: 980px) {
+    .technologiesSection {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .skillIcon,
+    .skillImg {
+      margin: 10px auto;
+    }
   }

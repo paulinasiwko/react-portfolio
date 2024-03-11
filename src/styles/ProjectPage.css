@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .prjDescriptionSide {
@@ -22,7 +23,7 @@
     width: 100%;
     max-width: 300px; 
     height: auto;
-    background-color: var(--white);
+    background-color: var(--light);
     padding: 10px;
 }
 
@@ -33,8 +34,9 @@
 }
 
 .prjLinks {
-    flex-direction: column; 
+    display: flex;
     align-items: center;
+    justify-content: space-around;
     margin-top: 20px;
 }
 

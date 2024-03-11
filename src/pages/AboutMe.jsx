@@ -1,42 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styles/AboutMe.css';
 import IMAGES from "../assets/img/Images";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import TextAnimation from "../components/TextAnimation";
 
 export default function AboutMe() {
+    const [imgIsClicked, setImgIsClicked] = useState(false);
+
+    function handleImgClick() {
+        setImgIsClicked(true);
+    }
+
     return (
         <>
         <Header showImg={false} />
         <section className="container aboutMeLayout">
             <div className="meDescription">
                 <h1 className="heading">about me</h1>
-                <p>
-                    Greetings! I'm a front-end developer with a relentless 
-                    passion for turning ideas into engaging digital experiences. 
-                    My journey in programming began with a thirst for knowledge and 
-                    a determination to master the intricacies of web development. 
-                    What fuels me is not just the end result, but the continuous process 
-                    of learning and refining my coding skills.
+                <p className="first">
+                    Hey there! Welcome to my digital world! I'm a front-end enthusiast working 
+                    to turn ordinary ideas into captivating digital experiences. My coding journey 
+                    began with curiosity and a strong dedication to mastering web development. 
+                    It's not just about the end result; I enjoy constantly improving my coding skills.
+                </p>
+                {/* <TextAnimation text='Hey there! Welcome to my digital world! I am a front-end enthusiast working to turn ordinary ideas into captivating digital experiences. My coding journey began with curiosity and a strong dedication to mastering web development. It is not just about the end result; I enjoy constantly improving my coding skills.' css='about aboutFirst' timeout1={250} timeout2={30} timeout3={100}/> */}
+                <TextAnimation text='But wait, there is more to me than just coding! I love exploring foreign languages, decoding linguistic mysteries, and discovering different cultures through travel. These adventures not only broaden my horizons but also inspire creative solutions in my coding projects.' css='about' timeout1={500} timeout2={60} timeout3={200}/>
+                <TextAnimation text='In essence, I am not just a coder; I am a curious learner on a journey of knowledge and growth. Come join me on this exciting adventure where technology, creativity, and a passion for languages come together in a magical symphony!' css='about' timeout1={500} timeout2={60} timeout3={200}/>
+                {/* <p>
+                    But wait, there's more to me than just coding! I love exploring foreign 
+                    languages, decoding linguistic mysteries, and discovering different cultures 
+                    through travel. These adventures not only broaden my horizons but also inspire 
+                    creative solutions in my coding projects.                
                 </p>
                 <p>
-                    Beyond the realm of programming, my interests are diverse. 
-                    I am fascinated by foreign languages, finding joy in decoding linguistic 
-                    nuances and cultural intricacies. This passion extends beyond the screen, 
-                    as I seek out opportunities to immerse myself in different cultures through travel. 
-                    These experiences not only broaden my perspective but also inspire 
-                    creative solutions in my coding endeavors.
-                </p>
-                <p>
-                    In essence, I am not just a coder; I am a curious mind on a perpetual quest 
-                    for knowledge and growth. Join me on this exciting journey where technology, 
-                    creativity, and a love for languages converge.
-                </p>
+                    In essence, I'm not just a coder; I'm a curious learner on a journey of 
+                    knowledge and growth. Come join me on this exciting adventure where technology, 
+                    creativity, and a passion for languages come together in a magical symphony! 
+                </p> */}
             </div>
-            <img src={IMAGES.meImg} alt="Photo of me" className="aboutMeImg" />
-            {/* <div className="speechBubble">
-                <p className="comicText">Don't click on me, it hurts!</p>
-            </div> */}
+            {imgIsClicked ? <img src={IMAGES.meComic} alt="Photo of me with a comic speech bubble with text - Please, don't click on me, it hurts!" className="aboutMeImg" /> : <img src={IMAGES.meImg} alt="Photo of me" className="aboutMeImg notClicked" onClick={handleImgClick} /> }        
         </section>
         <Footer />
         </>
