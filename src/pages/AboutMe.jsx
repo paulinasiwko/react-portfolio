@@ -24,8 +24,8 @@ export default function AboutMe() {
                     began with curiosity and a strong dedication to mastering web development. 
                     It's not just about the end result; I enjoy constantly improving my coding skills.
                 </p>
-                <TextAnimation text='But wait, there is more to me than just coding! I love exploring foreign languages, decoding linguistic mysteries, and discovering different cultures through travel. These adventures not only broaden my horizons but also inspire creative solutions in my coding projects.' css='about' timeout1={500} timeout2={60} timeout3={200}/>
-                <TextAnimation text='In essence, I am not just a coder; I am a curious learner on a journey of knowledge and growth. Come join me on this exciting adventure where technology, creativity, and a passion for languages come together in a magical symphony!' css='about' timeout1={500} timeout2={60} timeout3={200}/>
+                <TextAnimation text='But wait, there is more to me than just coding! I love exploring foreign languages, decoding linguistic mysteries, and discovering different cultures through travel. These adventures not only broaden my horizons but also inspire creative solutions in my coding projects.' css='about' timeout1={250} timeout2={30} timeout3={100}/>
+                <TextAnimation text='In essence, I am not just a coder; I am a curious learner on a journey of knowledge and growth. Come join me on this exciting adventure where technology, creativity, and a passion for languages come together in a magical symphony!' css='about' timeout1={300} timeout2={33} timeout3={120}/>
             </div>
             {imgIsClicked ? <img src={IMAGES.meComic} alt="Photo of me with a comic speech bubble with text - Please, don't click on me, it hurts!" className="aboutMeImg" /> : <img src={IMAGES.meImg} alt="Photo of me" className="aboutMeImg notClicked" onClick={handleImgClick} /> }        
         </section>
