@@ -1,5 +1,41 @@
 [
     {
+        "id":  "kubi",
+        "image":  "./kubi.png",
+        "technologies": "React.js, React-Bootstrap, third-party APIs (Leaflet maps, Email.js)",
+        "cardTitle": "Company's website @ kubiproducentmebli.pl",
+        "title": "company's website - kubiproducentmebli.pl", 
+        "description": "This project involves the development of an authentic company website in collaboration with stakeholders. The website is built using React and features the integration of Leaflet maps to create an immersive and engaging user interface. To streamline communication, the implementation includes the seamless integration of form submissions using Email.js. This functionality ensures that form entries are efficiently directed to the designated email address, enhancing communication efficiency. A key focus of the project is prioritizing user experience. This is achieved through the implementation of a responsive design approach using React-Bootstrap, guaranteeing optimal usability across a variety of mobile devices.", 
+        "github": "https://github.com/paulinasiwko/kubi-producent-mebli", 
+        "deployed": "https://kubiproducentmebli.pl/"
+    },{
+        "id": "weather",
+        "image":  "./weather-dashboard.PNG",
+        "technologies":  "Javascript, Bootstrap, jQuery, Day.js, OpenWeatherMap API",
+        "cardTitle": "Weather Dashboard",
+        "title": "weather dashboard", 
+        "description": "The Weather Dashboard is a comprehensive application crafted to deliver up-to-the-minute weather updates for different cities. By utilizing Server-Side API, specifically the 5 Day Weather Forecast API, the application dynamically updates HTML and CSS to accurately depict both current and upcoming weather conditions. Additionally, jQuery is employed to dynamically change the HTML content, ensuring a seamless user experience. To guarantee precise data retrieval, the application requires an API key from OpenWeatherMap and leverages geographical coordinates. Thanks to local storage, the selected city is added to the search history, providing a convenient way to revisit previously searched locations.", 
+        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
+        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
+    },{
+        "id": "curiocity",
+        "image":  "./curiocity.png",
+        "technologies": "JavaScript, Bootstrap, Server-Side APIs (OpenWeatherMap, Edamam, OMDb, Flickr, ExchangeRate-API)",
+        "cardTitle": "Curiocity",
+        "title": "curiocity", 
+        "description": "CurioCity is an innovative, user-friendly platform that enhances the urban exploration experience. Designed for both avid travelers and curious locals, it offers a comprehensive guide to cities worldwide. By inputting a city name, users receive an array of information: current weather, captivating images, city descriptions, trending movies, local cuisine insights, and a convenient currency converter. This holistic approach, powered by seven different server-side APIs, provides an immersive and informative exploration tool for city enthusiasts.", 
+        "github": "https://github.com/paulinasiwko/CurioCity", 
+        "deployed": "https://paulinasiwko.github.io/CurioCity/"
+    },{
+        "id": "workday_scheduler",
+        "image": "./workday-scheduler.PNG",
+        "technologies": "Javascript, jQuery, Day.js, HTML, CSS",
+        "cardTitle": "Workday scheduler",
+        "title": "workday scheduler", 
+        "description": "This project aims to develop a Daily Planner App, demonstrating proficiency in DOM manipulation, advanced JavaScript, the Day.js library, and the integration of third-party APIs. By employing jQuery for dynamic HTML and CSS updates and incorporating the Day.js library for precise date and time handling, this browser-based application offers a user-friendly interface for event planning and efficient time management.", 
+        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
+        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
+    },{
         "id": "friends_quiz",
         "image": "./code-quiz.JPG",
         "technologies": "JavaScript, HTML, CSS",
@@ -8,50 +44,4 @@
         "description": "A timed Friends Quiz featuring questions with corresponding single-choice answers. The dataset is structured as an array containing questions and their respective correct answers. The initiation of the quiz, as well as the activation of the timer, is facilitated through a button click event listener. Upon selecting the correct answer, the quiz progresses to the next question. However, if an incorrect answer is chosen, a penalty of 10 seconds is deducted from the timer. The quiz concludes either when all questions are answered or when the timer reaches zero. Following the conclusion of the quiz, participants can input their initials. Upon submitting this information, users can view the highscores accumulated during the quiz. Local storage is utilized to persistently store user initials and scores. To enhance user experience, a 'Clear Highscores' button is provided, enabling users to reset and clear the local storage data.", 
         "github": "https://github.com/paulinasiwko/Code-Quiz", 
         "deployed": "https://paulinasiwko.github.io/Code-Quiz/"
-    },
-    {
-        "id": "workday_scheduler",
-        "image": "./workday-scheduler.PNG",
-        "technologies": "jQuery, Day.js, Javascript, HTML, CSS",
-        "cardTitle": "Workday scheduler",
-        "title": "workday scheduler", 
-        "description": "This project aims to develop a Daily Planner App, demonstrating proficiency in DOM manipulation, advanced JavaScript, the Day.js library, and the integration of third-party APIs. By employing jQuery for dynamic HTML and CSS updates and incorporating the Day.js library for precise date and time handling, this browser-based application offers a user-friendly interface for event planning and efficient time management.", 
-        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
-        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
-    },{
-        "id": "weather",
-        "image":  "./weather-dashboard.PNG",
-        "technologies":  "Javascript, jQuery, Bootstrap",
-        "cardTitle": "Weather Dashboard",
-        "title": "weather dashboard", 
-        "description": "The Weather Dashboard is a comprehensive application crafted to deliver up-to-the-minute weather updates for different cities. By utilizing Server-Side API, specifically the 5 Day Weather Forecast API, the application dynamically updates HTML and CSS to accurately depict both current and upcoming weather conditions. Additionally, jQuery is employed to dynamically change the HTML content, ensuring a seamless user experience. To guarantee precise data retrieval, the application requires an API key from OpenWeatherMap and leverages geographical coordinates. Thanks to local storage, the selected city is added to the search history, providing a convenient way to revisit previously searched locations.", 
-        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
-        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
-    },{
-        "id": "password",
-        "image": "./password-generator.PNG",
-        "technologies":  "JavaScript, HTML, CSS",
-        "cardTitle": "Password Generator",
-        "title": "password generator", 
-        "description": "This application is crafted to empower users by offering an interface for generating secure and random passwords based on their specified criteria. It gathers user input through prompts, which is then analyzed to create a random password. Upon answering all prompts, the generated password is displayed on the page. The password is dynamically generated with each button click.", 
-        "github": "https://github.com/paulinasiwko/Password-Generator", 
-        "deployed": "https://paulinasiwko.github.io/Password-Generator/"
-    },{
-        "id": "curiocity",
-        "image":  "./curiocity.png",
-        "technologies": "JavaScript, Bootstrap, Server-Side APIs",
-        "cardTitle": "Curiocity",
-        "title": "curiocity", 
-        "description": "CurioCity is an innovative, user-friendly platform that enhances the urban exploration experience. Designed for both avid travelers and curious locals, it offers a comprehensive guide to cities worldwide. By inputting a city name, users receive an array of information: current weather, captivating images, city descriptions, trending movies, local cuisine insights, and a convenient currency converter. This holistic approach, powered by seven different server-side APIs, provides an immersive and informative exploration tool for city enthusiasts.", 
-        "github": "https://github.com/paulinasiwko/CurioCity", 
-        "deployed": "https://paulinasiwko.github.io/CurioCity/"
-    },{
-        "id":  "profile",
-        "image":  "./team-profile-generator.PNG",
-        "technologies": "JavaScript, HTML, CSS",
-        "cardTitle": "Team Profile Generator",
-        "title": "team profile generator", 
-        "description": "The Team Profile Generator is a Node.js command-line application designed to streamline the process of generating a webpage that displays summaries for each member of a software engineering team. This application allows users to input information about team members, including managers, engineers, and interns, and then generates an HTML webpage with their basic info, such as name, email, and GitHub profile. This project aims to facilitate team management by providing quick access to essential details about each team member.", 
-        "github": "https://github.com/paulinasiwko/Team-Profile-Generator", 
-        "deployed": "https://paulinasiwko.github.io/Team-Profile-Generator/"
     }]
