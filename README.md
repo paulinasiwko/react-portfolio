@@ -19,13 +19,16 @@ The [URL](https://paulinasiwko.github.io/react-portfolio/) of deployed applicati
 
 ## Technologies Used
 
-- React
-- Navigation using React Router
-- Bootstrap
-- HTML
-- CSS
-- JavaScript
-- Font Awesome Icons
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+- ![GithubPages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
+- ![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+- ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+- ![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
 ## Credits
 - [CSS Text Animation Examples](https://www.sliderrevolution.com/resources/css-text-animation/)
@@ -33,6 +36,3 @@ The [URL](https://paulinasiwko.github.io/react-portfolio/) of deployed applicati
 - [Bootstrap cards idea](https://codepen.io/maryj25)
 - [Portfolio inspiration](https://dorota1997.github.io/react-frontend-dev-portfolio/)
 - [Portfolio inspiration](https://www.adhamdannaway.com/about)
-
-## Licence 
-N/A
