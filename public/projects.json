@@ -36,6 +36,15 @@
         "github": "https://github.com/paulinasiwko/work-day-scheduler", 
         "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     },{
+        "id": "clicky_game",
+        "image": "./clicky-game.JPG",
+        "technologies": "React.js, Vite, Netlify, Bootstrap, JavaScript",
+        "cardTitle": "Clicky Memory Game",
+        "title": "clicky memory game", 
+        "description": "The Clicky Game is a React application designed to test and enhance memory skills. Users are presented with a grid of images, and their objective is to click on each image only once. The game keeps track of the user's score and shuffles the images after every click. This project focuses on building a memory game using React components, managing component state, and handling user events. The application is deployed with Netlify.", 
+        "github": "https://github.com/paulinasiwko/clicky-game", 
+        "deployed": "https://clicky-game-mario.netlify.app/"
+    },{
         "id": "friends_quiz",
         "image": "./code-quiz.JPG",
         "technologies": "JavaScript, HTML, CSS",
