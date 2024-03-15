@@ -1,5 +1,7 @@
 # React Portfolio
 
+![GitHub top language](https://img.shields.io/github/languages/top/paulinasiwko/react-portfolio)
+
 ## Description
 This project serves as my portfolio webpage, showcasing my various projects. 
 
