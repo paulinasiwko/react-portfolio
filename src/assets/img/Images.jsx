@@ -11,6 +11,7 @@ const IMAGES = {
     jQuery: new URL('./jQuery.svg', import.meta.url).href,
     typescript: new URL('./typescript.svg', import.meta.url).href,
     tailwind: new URL('./tailwind.svg', import.meta.url).href,
+    clickyGameImg: new URL('./clicky-game.JPG', import.meta.url).href,
 }
 
 export default IMAGES;
