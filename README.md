@@ -1,5 +1,6 @@
 # React Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8687fca-03e9-4b03-91de-462e39f21353/deploy-status)](https://paulina-siwko.netlify.app/)
 ![GitHub top language](https://img.shields.io/github/languages/top/paulinasiwko/react-portfolio)
 
 ## Description
@@ -17,13 +18,13 @@ After opening the code in the browser the resulting analysis looks as following:
 
 ![A screenshot of the deployed application](./src/assets/img/deployed.JPG)
 
-The [URL](https://paulinasiwko.github.io/react-portfolio/) of deployed application.
+The [URL](https://paulina-siwko.netlify.app/) of deployed application.
 
 ## Technologies Used
 
 - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-- ![GithubPages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
+- ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 - ![ReactRouter](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 - ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
