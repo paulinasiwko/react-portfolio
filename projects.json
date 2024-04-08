@@ -19,13 +19,13 @@
         "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
     },{
         "id": "curiocity",
-        "image":  "./curiocity.png",
-        "technologies": "JavaScript, Bootstrap, Server-Side APIs (OpenWeatherMap, Edamam, OMDb, Flickr, ExchangeRate-API)",
+        "image":  "./curiocity.JPG",
+        "technologies": "JavaScript, Bootstrap, jQuery, Day.js, Server-Side APIs (OpenWeatherMap, Edamam, OMDb, Flickr, ExchangeRate-API)",
         "cardTitle": "Curiocity",
         "title": "curiocity", 
         "description": "CurioCity is an innovative, user-friendly platform that enhances the urban exploration experience. Designed for both avid travelers and curious locals, it offers a comprehensive guide to cities worldwide. By inputting a city name, users receive an array of information: current weather, captivating images, city descriptions, trending movies, local cuisine insights, and a convenient currency converter. This holistic approach, powered by seven different server-side APIs, provides an immersive and informative exploration tool for city enthusiasts.", 
-        "github": "https://github.com/paulinasiwko/CurioCity", 
-        "deployed": "https://paulinasiwko.github.io/CurioCity/"
+        "github": "https://github.com/paulinasiwko/CurioCity/tree/mainCSS", 
+        "deployed": "https://curio-city.netlify.app/"
     },{
         "id": "workday_scheduler",
         "image": "./workday-scheduler.PNG",
