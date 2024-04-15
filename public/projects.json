@@ -9,15 +9,6 @@
         "github": "https://github.com/paulinasiwko/kubi-producent-mebli", 
         "deployed": "https://kubiproducentmebli.pl/"
     },{
-        "id": "weather",
-        "image":  "./weather-dashboard.PNG",
-        "technologies":  "Javascript, Bootstrap, jQuery, Day.js, OpenWeatherMap API",
-        "cardTitle": "Weather Dashboard",
-        "title": "weather dashboard", 
-        "description": "The Weather Dashboard is a comprehensive application crafted to deliver up-to-the-minute weather updates for different cities. By utilizing Server-Side API, specifically the 5 Day Weather Forecast API, the application dynamically updates HTML and CSS to accurately depict both current and upcoming weather conditions. Additionally, jQuery is employed to dynamically change the HTML content, ensuring a seamless user experience. To guarantee precise data retrieval, the application requires an API key from OpenWeatherMap and leverages geographical coordinates. Thanks to local storage, the selected city is added to the search history, providing a convenient way to revisit previously searched locations.", 
-        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
-        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
-    },{
         "id": "curiocity",
         "image":  "./curiocity.JPG",
         "technologies": "JavaScript, Bootstrap, jQuery, Day.js, Server-Side APIs (OpenWeatherMap, Edamam, OMDb, Flickr, ExchangeRate-API)",
@@ -26,15 +17,6 @@
         "description": "CurioCity is an innovative, user-friendly platform that enhances the urban exploration experience. Designed for both avid travelers and curious locals, it offers a comprehensive guide to cities worldwide. By inputting a city name, users receive an array of information: current weather, captivating images, city descriptions, trending movies, local cuisine insights, and a convenient currency converter. This holistic approach, powered by seven different server-side APIs, provides an immersive and informative exploration tool for city enthusiasts.", 
         "github": "https://github.com/paulinasiwko/CurioCity/tree/mainCSS", 
         "deployed": "https://curio-city.netlify.app/"
-    },{
-        "id": "workday_scheduler",
-        "image": "./workday-scheduler.PNG",
-        "technologies": "Javascript, jQuery, Day.js, HTML, CSS",
-        "cardTitle": "Workday scheduler",
-        "title": "workday scheduler", 
-        "description": "This project aims to develop a Daily Planner App, demonstrating proficiency in DOM manipulation, advanced JavaScript, the Day.js library, and the integration of third-party APIs. By employing jQuery for dynamic HTML and CSS updates and incorporating the Day.js library for precise date and time handling, this browser-based application offers a user-friendly interface for event planning and efficient time management.", 
-        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
-        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     },{
         "id": "clicky_game",
         "image": "./clicky-game.JPG",
@@ -45,12 +27,30 @@
         "github": "https://github.com/paulinasiwko/clicky-game", 
         "deployed": "https://clicky-game-mario.netlify.app/"
     },{
+        "id": "weather",
+        "image":  "./weather-dashboard.PNG",
+        "technologies":  "Javascript, Bootstrap, jQuery, Day.js, OpenWeatherMap API",
+        "cardTitle": "Weather Dashboard",
+        "title": "weather dashboard", 
+        "description": "The Weather Dashboard is a comprehensive application crafted to deliver up-to-the-minute weather updates for different cities. By utilizing Server-Side API, specifically the 5 Day Weather Forecast API, the application dynamically updates HTML and CSS to accurately depict both current and upcoming weather conditions. Additionally, jQuery is employed to dynamically change the HTML content, ensuring a seamless user experience. To guarantee precise data retrieval, the application requires an API key from OpenWeatherMap and leverages geographical coordinates. Thanks to local storage, the selected city is added to the search history, providing a convenient way to revisit previously searched locations.", 
+        "github": "https://github.com/paulinasiwko/Weather-Dashboard", 
+        "deployed": "https://paulinasiwko.github.io/Weather-Dashboard/"
+    },{
         "id": "friends_quiz",
         "image": "./code-quiz.JPG",
-        "technologies": "JavaScript, HTML, CSS",
+        "technologies": "JavaScript, Tailwind, HTML, jQuery",
         "cardTitle": "Friends Code Quiz",
         "title": "friends code quiz", 
         "description": "A timed Friends Quiz featuring questions with corresponding single-choice answers. The dataset is structured as an array containing questions and their respective correct answers. The initiation of the quiz, as well as the activation of the timer, is facilitated through a button click event listener. Upon selecting the correct answer, the quiz progresses to the next question. However, if an incorrect answer is chosen, a penalty of 10 seconds is deducted from the timer. The quiz concludes either when all questions are answered or when the timer reaches zero. Following the conclusion of the quiz, participants can input their initials. Upon submitting this information, users can view the highscores accumulated during the quiz. Local storage is utilized to persistently store user initials and scores. To enhance user experience, a 'Clear Highscores' button is provided, enabling users to reset and clear the local storage data.", 
         "github": "https://github.com/paulinasiwko/Code-Quiz", 
         "deployed": "https://paulinasiwko.github.io/Code-Quiz/"
+    },{
+        "id": "workday_scheduler",
+        "image": "./workday-scheduler.PNG",
+        "technologies": "Javascript, jQuery, Day.js, HTML, CSS",
+        "cardTitle": "Workday scheduler",
+        "title": "workday scheduler", 
+        "description": "This project aims to develop a Daily Planner App, demonstrating proficiency in DOM manipulation, advanced JavaScript, the Day.js library, and the integration of third-party APIs. By employing jQuery for dynamic HTML and CSS updates and incorporating the Day.js library for precise date and time handling, this browser-based application offers a user-friendly interface for event planning and efficient time management.", 
+        "github": "https://github.com/paulinasiwko/work-day-scheduler", 
+        "deployed": "https://paulinasiwko.github.io/work-day-scheduler/"
     }]
