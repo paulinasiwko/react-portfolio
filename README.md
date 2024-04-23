@@ -16,7 +16,10 @@ N/A
 ## Usage
 After opening the code in the browser the resulting analysis looks as following:
 
-![A screenshot of the deployed application](./src/assets/img/deployed.JPG)
+![A screenshot of homepage](./src/assets/img/deployed.JPG)
+![A screenshot of about me section](./src/assets/img/about-me.JPG)
+![A screenshot of skills section](./src/assets/img/skills.JPG)
+![A screenshot of project page](./src/assets/img/project.JPG)
 
 The [URL](https://paulina-siwko.netlify.app/) of deployed application.
 
