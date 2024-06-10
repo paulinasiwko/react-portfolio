@@ -20,7 +20,7 @@ export default function Home() {
             <Header showImg={true}/>
             <div className="introduction">
                 <p className="font">Hi, my name is</p>
-                <h1 className="font name">Paulina Siwko</h1>
+                <h1 className="font name">Paulina Teske</h1>
                 <TextAnimation text='I transform code into awesome user experiences that grab attention and' css='font-appear' timeout1={500} timeout2={60} timeout3={200}/>
                 {secondAnimation && <TextAnimation text='keep it.' css='font-appear lighter' timeout1={1000} timeout2={120} timeout3={400}/>}
             </div>
